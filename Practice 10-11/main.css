@@ -1,0 +1,20 @@
+.thing {
+  background-color: blue;
+  width: 166px;
+  text-align: center;
+  display: inline-block;
+  color: white;
+  transition: 2s;
+ }
+
+ .thing:hover {
+  background-color: red;
+ }
+
+.box {
+    width: 500px;
+    background-color: gray;
+    margin: auto;
+    text-align: center;
+
+}

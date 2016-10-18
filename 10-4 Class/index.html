@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <h1 id="title">Huzzah!</h1>
+        <h2 id="timer">00:00:00</h2>
+        <button type="button" name="startstopBtn" id="button">Start</button>
+        <button type="button" name="resetBtn" id="resetBtn">Reset</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1>Tip Calculator</h1>
+        <h2 id="tipDisp">00.00</h2>
+        <!--<input type="text" name="total" value="" id="totalInp"></input>-->
+        <h3>Total Amount: </h3>
+        <input type="text" onkeypress='return (event.charCode >= 48 && event.charCode <= 57) || event.charCode == 46' id="totalInp"></input>
+        <br>
+        <br>
+        <h3 class="inline">Tip Percentage: </h3>
+        <input type="text" onkeypress='return (event.charCode >= 48 && event.charCode <= 57) || event.charCode == 46' id="tipInp"></input>
+        <br>
+        <br>
+        <button type="button" name="tipCalc" id="tipCalc">Calculate Tip</button>
+
+        <!-- JS Here -->
+        <script type="text/javascript" src="js/main.js"></script>
+        <script type="text/javascript">
+
+        </script>
+    </body>
+</html>
